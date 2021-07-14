@@ -42,8 +42,6 @@ button:hover{
 	grid-column-gap: 30px;
 	margin-left: 180px;
 }
-
-
 .player-image img{
 	width: 300px;
 	height: 256px;
@@ -52,6 +50,37 @@ button:hover{
 	width: 300px;
 	color:#6C6C6C;
 }
+.player-information a{
+	text-decoration: none;
+	width: 100px;
+	color: whitesmoke;
+	background-color: gray;
+	padding: 5px;
+	border-radius: 15px;
+
+}
+/* sponsor style  */
+.sponsor{
+	border: 2px solid gray;
+	background-color: gray;
+	margin-top: 5px;
+}
+.sponsor h2{
+	text-align: center;
+	font-size: 35px;
+	color: whitesmoke;
+}
+.sponsor-images{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	margin-left: 180px;
+	padding: 10px;
+}
+.sponsor-image img{
+	width: 150px;
+	height: 150px;
+}
+
 /* footer style  */
 .banner-style{
 	display: flex;
@@ -76,7 +105,7 @@ button:hover{
 		flex-direction: column;
 		
 	}
-	 .capa-america-title{
+	 .capa-america-title, .sponsor-images{
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -97,6 +126,8 @@ button:hover{
 	}
 
 	.banner-style img{
-		width: 80%;
-		
+		width: 80%;	
+	}
+	.sponsor-images{
+		margin-left: 10%;
 	}
