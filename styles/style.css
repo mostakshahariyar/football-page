@@ -1,0 +1,50 @@
+/* common style  */
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.container{
+	margin-bottom: 70px;
+}
+/* copa america title style  */
+.copa-america{
+	background-color: #2D25A0;
+	display: flex;
+}
+.capa-america-title{
+	font-size: 64px;
+	font-weight: 700;
+	color: #FFFFFF;
+	padding-left: 156px;
+	margin-bottom: 10px;
+	margin-top: 207px;
+}
+button{
+	background-color: #E02C6D;
+	color: #FFFFFF;
+	padding: 10px 24px;
+	margin-bottom: 169px;
+}
+.image-football img{
+	width: 556.01px;
+	height: 438px;
+	padding-left: 102px;
+	margin-top: 153px;
+}
+/* players style  */
+.players-details .players-info{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-row-gap:27px;
+	grid-column-gap: 30px;
+	margin-left: 180px;
+
+}
+
+.player-image img{
+	width: 300px;
+	height: 256px;
+}
+.player-details{
+	width: 300px;
+	color:#6C6C6C;
+}
