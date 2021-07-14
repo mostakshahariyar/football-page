@@ -65,6 +65,7 @@ button{
 	border-radius: 1px solid gray;
 }
 /* media screen  */
+ /* mobile devise */
 @media only screen and (max-width:688px) {
 	.copa-america{
 		display: flex;
