@@ -66,25 +66,28 @@ button{
 }
 /* media screen  */
 @media only screen and (max-width:688px) {
-	.container{
-		width: 100%;
-	}
-	.players, .blogs, .course{
-		grid-template-columns: repeat(1, 1fr);
+	.copa-america{
+		display: flex;
+		flex-direction: column;
 		
 	}
-	.player, .blog{
-		flex-direction: column;
+	 .title{
+		text-align: center;
+
 	}
-	.course-baner{
-		margin-bottom: 10px;
-		margin-left: 5px;
+	
+	 .capa-america-title p, .image-football img{
+		width: 90%;
+		padding-left: 7%;
+	
+	 } 
+		
+	.players-details .players-info{
+		grid-template-columns: repeat(1, 1fr);
+		margin: 0 35px;
 	}
-}
-/* ipad or other deives  */
-@media only screen and (min-width:688px) and (max-width:992px) {
-	.container{
-		width: 100%;
+
+	.banner-style img{
+		width: 80%;
+		
 	}
-      
-}
